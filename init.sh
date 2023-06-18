@@ -8,7 +8,7 @@ service docker start
 usermod -a -G docker ec2-user
 chkconfig docker on
 
-sudo docker pull yeezysmem/lab4
+sudo docker pull yeezysmem/lab4:latest
 
 sudo docker pull containrrr/watchtower
 
