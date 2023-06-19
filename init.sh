@@ -14,4 +14,4 @@ sudo docker pull containrrr/watchtower
 
 sudo docker run -d -p 80:80 yeezysmem/lab4
 
-sudo docker run -d --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -i 60
+sudo docker run -d --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -i 15
